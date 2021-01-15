@@ -23,6 +23,28 @@
     </dependencies>
     <build>
         <plugins>
+
+            <!--
+            <plugin>
+                <groupId>com.jolira</groupId>
+                <artifactId>onejar-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <configuration>
+                            <mainClass>fabianzarncke.autovermietung.App</mainClass>
+                            <attachToBuild>true</attachToBuild>
+                            <filename>
+                                CarRental.${project.packaging}
+                            </filename>
+                        </configuration>
+                        <goals>
+                            <goal>one-jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            -->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

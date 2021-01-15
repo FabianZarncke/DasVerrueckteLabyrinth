@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author fabia
  */
-public class MainController implements Initializable {
+public class GameController implements Initializable {
 
     /**
      * Initializes the controller class.
